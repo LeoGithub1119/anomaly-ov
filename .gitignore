@@ -71,3 +71,57 @@ playground/*.json
 mlx_configs/
 data_processing/
 # demo/
+
+
+# MINE
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Hugging Face / Model caches (BIG) ---
+cache/
+hf_cache/
+**/.cache/
+**/xet/
+
+# --- pip caches / wheels (often inside cache/) ---
+**/pip/
+pip-wheel-metadata/
+*.whl
+
+# --- Training outputs / logs ---
+outputs/
+logs/
+wandb/
+runs/
+checkpoints/
+ckpt/
+**/checkpoint-*/
+**/*.pt
+**/*.pth
+**/*.ckpt
+*.log
+*.out
+*.err
+
+# --- Local config secrets ---
+.env
+.env.*
+# MINE
